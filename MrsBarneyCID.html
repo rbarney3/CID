@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mrs. Barney's CID Videos</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", sans-serif;
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 2em;
+      border-bottom: 5px solid #ffb347;
+    }
+
+    h2 {
+      text-align: center;
+      color: #4b2e83;
+      margin-top: 30px;
+    }
+
+    .container {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .video-card {
+      background-color: #fff3cd;
+      border: 2px solid #f0c36d;
+      border-radius: 15px;
+      padding: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .video-card iframe {
+      width: 100%;
+      height: 180px;
+      border-radius: 10px;
+    }
+
+    .video-title {
+      font-size: 1.2em;
+      margin-top: 10px;
+      text-align: center;
+      color: #5a2a83;
+    }
+  </style>
+</head>
+<body>
+  <header>Mrs. Barney's CID Videos</header>
+
+  <h2>Kindergarten Videos</h2>
+  <div class="container">
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/DT4CaqOwCT4" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">Kindergarten Video 1</div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/MuYPGNE_y1M" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">Kindergarten Video 2</div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/2epEd2tR1-g" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">Kindergarten Video 3</div>
+    </div>
+  </div>
+
+  <h2>First Grade Videos</h2>
+  <div class="container">
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/tFqkm0YJ6C0" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">First Grade Video 1</div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/MuYPGNE_y1M" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">First Grade Video 2</div>
+    </div>
+  </div>
+
+  <h2>Second Grade Videos</h2>
+  <div class="container">
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/vcQXzWSKdI8" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">Second Grade Video 1</div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/c9OnXu0jHvk" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">Second Grade Video 2</div>
+    </div>
+  </div>
+</body>
+</html>
